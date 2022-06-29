@@ -21,7 +21,7 @@ const numbers = [1,2,3,4,5];
 // aim : sum of all the numbers of Array
 
 const sum = numbers.reduce((accumulator, currentValue)=> accumulator + currentValue);
-console.log(sum);
+console.log('This is sum of array', sum);
 
 // JavaScript Program to Check Whether a String is Palindrome or Not
 // function checkPalindrome(string) {
