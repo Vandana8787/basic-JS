@@ -1,0 +1,18 @@
+// Pure Function Example
+// function PureFunction(obj, ar) {
+//     console.log(obj);
+//     if(obj.name === "Ganesh" || ar[0] === "Apple") {
+//         return true;
+//     }
+// }
+// const val = PureFunction(obj, ar);
+// console.log(val);
+
+function PureFunction2(name, fruit) {
+    if(name === "Ganesh" || fruit === "Apple") {
+        name = "Nitin";
+        return true;
+    }
+}
+const val2 = PureFunction2(obj.name, ar[0]);
+console.log(val2);

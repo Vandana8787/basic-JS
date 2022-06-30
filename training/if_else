@@ -1,0 +1,20 @@
+// if and else
+function drinks( coffee , Milk){
+const returndrink if(age>=5) return { drinks : "coffee"
+}; else return { drinks : "milk"
+}}
+console.log(drinks);
+//     function getNameWithLocation(param){
+//         return "My name is "+param + " & My location is "+ location;
+//         }
+//         return getNameWithLocation;
+// }
+
+// let getmynameWithlocation = Student();
+// const output= Student()("Vandana")
+// console.log(output);
+
+
+// let age = 3;
+// let drink = age >= 5 ? "coffee" : "milk";
+// console.log(drink);

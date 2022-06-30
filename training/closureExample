@@ -1,0 +1,27 @@
+// closure example
+// function Employee() {
+//     let localtion = "Pune";
+//     function getNameWithLocation(param) {
+//         return "My name is "+param + " & My localtion is "+localtion;
+//     }
+//     return getNameWithLocation;
+// }
+// // One way to call function 
+// let getNameWithLocation = Employee();
+// const ot = getNameWithLocation("Shriansh");
+// console.log(ot);
+// // another way to call function
+// const output = Employee()("Ganesh");
+// console.log(output);
+
+function Student() {
+    let location = "Plano";
+    function getNameWithLocation(param){
+        return "My name is "+param + " & My location is "+ location;
+        }
+        return getNameWithLocation;
+}
+
+let getmynameWithlocation = Student();
+const output= Student()("Vandana")
+console.log(output);
